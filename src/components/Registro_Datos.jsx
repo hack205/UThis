@@ -11,9 +11,7 @@ export const Registro = () => {
 
   const handleNext = (event) => {
     event.preventDefault();
-    // Guardar los valores ingresados por el usuario en el estado del componente
 
-    // Redirigir al usuario al componente RegistroDomicilio y pasar los valores como propiedades
     navigate('/RegistroDomicilio', {
       state: {
         nombre,

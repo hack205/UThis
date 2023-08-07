@@ -124,6 +124,11 @@ body {
   z-index: 0;
 }
 
+.TextDependens{
+  text-align: left;
+}
+
+
 ::placeholder {
   color: transparent;
 }
@@ -171,12 +176,11 @@ body {
   border: 2px solid green;
 }
 .btn-create-account {
-  background-color: transparent; /* Fondo transparente para que no se vea el marco del botón */
-  border: none; /* Sin borde */
-  color: blue; /* Color de texto azul dentro del botón */
-  cursor: pointer; /* Cambia el cursor al hacer hover sobre el botón */
-  outline: none; /* Quita el borde que aparece al hacer clic en el botón */
-  /* Agrega otros estilos que desees para el botón, como tamaño, margen, etc. */
+  background-color: transparent; 
+  border: none;
+  color: blue; 
+  cursor: pointer; 
+  outline: none; 
 }
 
 @keyframes App-logo-spin {
